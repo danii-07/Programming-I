@@ -21,16 +21,16 @@ public class numberguess {
                 attempts++;
 
                 if (guess < secretNumber) {
-                    System.out.println("Too low!");
+                    System.out.println("too low!");
                 } else if (guess > secretNumber) {
-                    System.out.println("Too high!");
+                    System.out.println("too high!");
                 } else {
-                    System.out.println("Congratulations! You guessed the number in " + attempts + " attempts.");
+                    System.out.println("congratulations! you guessed the number in " + attempts + " attempts.");
                 }
             } else {
-                System.out.println("Invalid input. Please enter a number.");
+                System.out.println("invalid input. please enter a number.");
                 scanner.next(); // takes the invalid input and continues
-                guess = -1; // setting the guess to a value that won't match the secret number
+                guess = -1; // setting the guess to a value that won't match the secret number, so that the game goes on
             }
         } while (guess != secretNumber);
 
