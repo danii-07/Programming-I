@@ -7,7 +7,7 @@ public class Car {
     public boolean available;
     public double pricepday;
 
-    // getting the dataa and assign it on itsss place :)
+    // getting the data and assign it on its place :)
 
     public Car(String plate, String brand, String model, double pricepday) {
         this.plate = plate;

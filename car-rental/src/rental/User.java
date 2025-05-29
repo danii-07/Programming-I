@@ -9,7 +9,7 @@ public class User {
         this.cash = cash;
     }
 
-    // payments
+    // the payments
 
     public boolean pay(double amount) {
         if (this.cash >= amount) {

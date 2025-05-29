@@ -201,7 +201,7 @@ public class Main {
         System.out.println("\n these are your bookings pookie: ");
         boolean foundBookings = false;
         for (Rentbook r : rentals) {
-            if (r.user == user) { // compare by reference since it is the same object jiji
+            if (r.user == user) { // compare by reference since it is the same object
                 System.out.println(r);
                 System.out.println("---");
                 foundBookings = true;

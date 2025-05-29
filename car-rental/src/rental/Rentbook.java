@@ -6,7 +6,7 @@ public class Rentbook {
     public int days;
     public double totalCost;
 
-    // adding a booking
+    // adding bookings
 
     public Rentbook(User user, Car car, int days) {
         this.user = user;
