@@ -15,7 +15,7 @@ public class Main {
             System.out.println("1. add user");
             System.out.println("2. add product");
             System.out.println("3. view products");
-            System.out.println("4. search product");
+            System.out.println("4. search products");
             System.out.println("5. exit");
             System.out.print("please enter the number of your choice: ");
 

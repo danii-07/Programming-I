@@ -33,7 +33,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return name + " | Category: " + category + " | Price: $" + price + " | Quantity: " + quantity;
+        return name + " | category: " + category + " | price: $" + price + " | quantity: " + quantity;
     }
 
 }
